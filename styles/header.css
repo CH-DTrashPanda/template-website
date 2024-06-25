@@ -1,5 +1,6 @@
 header {
-    background-color: rgb(39, 37, 139);
+    /* background-color: rgb(39, 37, 139); */
+    background-color: var(--primary);
     height: 80px;
     padding-inline: 64px;
     display: flex;
@@ -13,7 +14,7 @@ header figure {
 
 header figure img {
     height: 100%;
-    box-shadow: 2px 2px 3px rgba(11, 11, 11, 0.751);
+    /* box-shadow: 2px 2px 1px rgba(11, 11, 11, 0.751); */
 }
 
 header nav {
@@ -22,12 +23,18 @@ header nav {
 }
  
 header nav a {
-    color: rgb(253, 253, 255);
+    /* background-color: rgb(56, 53, 129);
+    color: rgb(253, 253, 255); */
+    background-color: var(--primary);
+    color: var(--white);
     text-decoration: none;
-    border: 2px solid rgb(213, 213, 223);
+    /* border: 2px solid rgb(213, 213, 223); */
+    border: 2px solid var(--secondary);
     border-radius: 8px;
     padding: 8px;
-    box-shadow: 2px 2px 3px 0px rgba(11, 11, 11, 0.751);
+    /* box-shadow: 2px 2px 3px 0px rgba(11, 11, 11, 0.751); */
+    box-shadow: 2px 2px 3px 0px var(--black);
+    transition: 0.3s ease ;
 }
 
 header nav a:hover {

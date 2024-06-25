@@ -1,0 +1,21 @@
+/* section.about {
+
+}
+
+section.about figure {
+height: 340px;
+} */
+
+section.about figure img {
+    height: 100%;
+    border-radius: 10px;
+}
+
+section.about h2 {
+    margin-bottom: 16px;
+}
+
+section.about p {
+    padding: 8px;
+    text-align: center;
+}

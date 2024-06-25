@@ -1,0 +1,23 @@
+button.standard-button {
+    /* background-color: rgb(39, 37, 139);
+    border: 2px solid rgb(63, 63, 113); */
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+    border-radius: 8px;
+    /* box-shadow: 2px 2px 3px 0px rgba(11, 11, 11, 0.751); */
+    box-shadow: 2px 2px 3px 0px var(--black);
+    transition: 1s ease transform;
+    display: flex;
+}
+
+button.standard-button:hover {
+    transform: scale(105%);
+}
+
+button.standard-button a {
+    /* color: rgb(253, 253, 255); */
+    color: var(--white);
+    text-decoration: none;
+    width: 100%;
+    padding: 8px;
+}

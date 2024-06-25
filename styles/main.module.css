@@ -1,0 +1,78 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./about.css";
+@import "./projects.css";
+@import "./buttons.css";
+@import "./footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* --primary: #88BD4B;
+    --secondary: #A6CD79;
+    --tertiery: #699537;
+    --quertiery: ;
+    --accent: ;
+
+    --black: #0B0F06;
+    --white: #F5F9F0;
+    --grey: #202D11; */
+
+    --primary: #0D1321;
+    --secondary: #1D2D44;
+    --tertiery: #3E5C76;
+    /* --quertiery: #748CAB;
+    --accent: ; */
+
+    --black: #0e0e0e;
+    --white: #fdfdff;
+    --grey: #35363f;
+
+}
+
+
+body {
+    /* color: rgb(253, 253, 255);
+    background-color: rgb(21, 21, 21); */
+
+    color: var(--white);
+    background-color: var(--black);
+    overflow-x: hidden;
+}
+
+main {
+    /* padding-inline: 64px; */
+    display: grid;
+    /* padding-inline: 64px; */
+    /* gap: 64px; */
+}
+
+/** styler ALLE seksjoner på siden */
+
+section {
+    margin-inline: 64px;
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+    /* border: 2px solid rgb(71, 67, 67);
+    background-color: rgb(55, 57, 69); */
+    background-color: var(--grey);
+    border-radius: 16px;
+}
+
+section:last-of-type {
+    margin-bottom: 64px; 
+}
+
+div.divider {
+    /* background-color: grey; */
+    background-color: var(--grey);
+    height: 160px;
+}

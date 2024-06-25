@@ -1,0 +1,35 @@
+footer {
+    /* background-color: rgb(39, 37, 139); */
+    background-color: var(--primary);
+    height: 160px;
+    padding-inline: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+footer div.contact-info {
+    display: grid;
+    gap: 8px;
+}
+
+/* footer div.contact-info p {
+
+} */
+
+footer div.contact-info a {
+    /* color: rgb(174, 174, 224); */
+    color: var(--white);
+    text-shadow: 1px 1px 1px var(--black);
+}
+
+/* footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+} */
+
+footer nav a {
+    /* color: white; */
+    color: var(--white);
+}

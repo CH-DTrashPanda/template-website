@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website template</title>
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.module.css">
+    <script type="module" src="./js/main.js"></script>
 </head>
 
 <body>
@@ -15,55 +16,122 @@
         </figure>
 
         <nav>
-            <a target="_blank" href="https://github.com/CH-DTrashPanda">GITHUB</a>
-            <a target="_blank" href="https://www.youtube.com/">YOUTUBE</a>
-            <a target="_blank" href="https://www.vg.no/">VG</a>
+            <a href="#about">about</a>
+            <a href="#projects">projects</a>
+            <a href="#contact">contact</a>
         </nav>
 
     </header>
 
     <main>
-        <section class="hero section-flex">
-
-        <div class="hero-text">
-            <h1>Hero Section Text that uses h1 is the most important</h1>
-            <p>sub text or paragraph in the Hero section</p>
-        </div>
-            <button>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Hero Section Text that uses h1 is the most important</h1>
+                <p>sub text or paragraph in the Hero section</p>
+            </div>
+            <button class="standard-button">
                 <a href="#projects">Check out my projects</a>
             </button>
-
         </section>
 
-        <section class="about section-flex">
+        <div class="divider">
+            <!-- this is the divider -->
+        </div>
 
-            <h2>About section Title</h2>
-            <img src="" alt="">
-            <p>sub text in the about section which is a paragraph</p>
+        <section id="about" class="about">
+            <div>
+                <h2>About section Title</h2>
+                <figure>
+                    <img src="./public/pinkpanthermeme.gif" alt="Pink Panther cutting a shrub and the ground falling away with the text 
+                        'when you delete a block of code that you thought was useless' written above' ">
+                </figure>
+            </div>
 
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur quis voluptatibus eius aut ea
+                similique repudiandae vitae eaque et iste rem ipsam modi, rerum magni, debitis voluptates voluptas sunt
+                nemo.</p>
         </section>
 
-        <section id="projects" class="projects section-flex">
-            <h2>
-                project section title text
-            </h2>
-            <p>
-                sub text in the project section which is a paragraph
-            </p>
+        <section id="projects" class="projects">
+            <h2>project section title text</h2>
+            <p>sub text in the project section which is a paragraph</p>
+            <div class="projects-wrapper">
+                <div class="project-card">
+                    <h3>My first project</h3>
+                    <figure>
+                        <img src="./public/favdumdums.jpg" alt="two cats lying on floor">
+                    </figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe aliquam eos placeat
+                        doloribus omnis,
+                        necessitatibus fugit minus voluptatem officia dolores repellendus vero eum quod?</p>
+                    <button class="standard-button">
+                        <a target="_blank" href="https://github.com/CH-DTrashPanda">Check out</a>
+                    </button>
+                </div>
+                <div class="project-card">
+                    <h3>My first project</h3>
+                    <figure>
+                        <img src="./public/favdumdums.jpg" alt="two cats lying on floor">
+                    </figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe aliquam eos placeat
+                        doloribus omnis,
+                        necessitatibus fugit minus voluptatem officia dolores repellendus vero eum quod?</p>
+                    <button class="standard-button">
+                        <a target="_blank" href="https://github.com/CH-DTrashPanda">Check out</a>
+                    </button>
+                </div>
+                <div class="project-card">
+                    <h3>My first project</h3>
+                    <figure>
+                        <img src="./public/favdumdums.jpg" alt="two cats lying on floor">
+                    </figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe aliquam eos placeat
+                        doloribus omnis,
+                        necessitatibus fugit minus voluptatem officia dolores repellendus vero eum quod?</p>
+                    <button class="standard-button">
+                        <a target="_blank" href="https://github.com/CH-DTrashPanda">Check out</a>
+                    </button>
+                </div>
+                <div class="project-card">
+                    <h3>My first project</h3>
+                    <figure>
+                        <img src="./public/favdumdums.jpg" alt="two cats lying on floor">
+                    </figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe aliquam eos placeat
+                        doloribus omnis,
+                        necessitatibus fugit minus voluptatem officia dolores repellendus vero eum quod?</p>
+                    <button class="standard-button">
+                        <a target="_blank" href="https://github.com/CH-DTrashPanda">Check out</a>
+                    </button>
+                </div>
+                <div class="project-card">
+                    <h3>My first project</h3>
+                    <figure>
+                        <img src="./public/favdumdums.jpg" alt="two cats lying on floor">
+                    </figure>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi saepe aliquam eos placeat
+                        doloribus omnis,
+                        necessitatibus fugit minus voluptatem officia dolores repellendus vero eum quod?</p>
+                    <button class="standard-button">
+                        <a target="_blank" href="https://github.com/CH-DTrashPanda">Check out</a>
+                    </button>
+                </div>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer id="contact">
         <div class="contact-info">
-            <p>telefon</p>
-            <p>adresse</p>
-            <p>email</p>
+            <p>telefon: ********</p>
+            <p>adresse: Veigata 96</p>
+            <p>email: <a href="mailto:charlotte.digitaletalenter@gmail.com">
+                charlotte.digitaletalenter@gmail.com</a></p>
         </div>
 
         <nav>
-            <a href="https://www.vg.no/">VG</a>
-            <a href="https://www.finn.no/">FINN</a>
+            <a href="https://github.com/CH-DTrashPanda">GITHUB</a>
             <a href="https://www.youtube.com/">YOUTUBE</a>
+            <a href="https://www.vg.no/">VG</a>
         </nav>
     </footer>
 
